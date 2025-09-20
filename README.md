@@ -1,2 +1,2 @@
-# yuvaraniS-portfolio
+# YuvaraniS-portfolio
 “Portfolio website of Yuvarani S”
