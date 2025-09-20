@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Yuvarani S (Dark Theme)</title>
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #121212;
+  color: #e0e0e0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg,#1f1c2c,#004d4d);
+  color: #fff;
+  padding: 25px 10px;
+  text-align: center;
+}
+header h1 { margin: 0; font-size: 2.5rem; }
+header p.role { margin: 5px 0; font-size: 1rem; }
+header p.contact a { margin: 0 10px; vertical-align: middle; transition: transform 0.2s; }
+header p.contact a:hover { transform: scale(1.2); }
+
+/* Navigation */
+nav {
+  background: #004d4d;
+  text-align: center;
+  padding: 8px;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover { text-decoration: underline; }
+
+/* Card Section */
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1e1e1e;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+  border-left: 6px solid #008080;
+  border-radius: 5px;
+}
+
+/* Section Heading */
+section h2 {
+  margin: 0 0 15px 0;
+  padding: 10px 15px;
+  background: linear-gradient(90deg,#008080,#004d4d);
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* Accordion */
+.accordion {
+  background: #2c2c2c;
+  cursor: pointer;
+  padding: 12px;
+  margin: 8px 0;
+  border-left: 4px solid #008080;
+  transition: 0.3s;
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.accordion:hover { background:#3d3d3d; }
+.panel {
+  padding: 0 12px;
+  display: none;
+  background: #2a2a2a;
+  border-left: 4px solid #008080;
+  overflow: hidden;
+  color: #e0e0e0;
+}
+
+/* Links hover */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>YUVARANI S</h1>
+<p class="role">Python Engineer || UI/UX / Graphic Designer || Data Analyst</p>
+<p class="contact">
+<a href="mailto:yuvaranisaravanan1212@gmail.com" title="Email">📧</a>
+<a href="https://www.linkedin.com/in/" target="_blank" title="LinkedIn">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#0A66C2">
+    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.271c-.966 0-1.75-.788-1.75-1.757 0-.97.784-1.752 1.75-1.752s1.75.783 1.75 1.752c0 .969-.784 1.757-1.75 1.757zm13.5 10.271h-3v-4.5c0-1.077-.022-2.463-1.5-2.463-1.5 0-1.732 1.174-1.732 2.387v4.576h-3v-9h2.883v1.232h.041c.402-.763 1.382-1.562 2.843-1.562 3.04 0 3.6 2.001 3.6 4.602v5.728z"/>
+  </svg>
+</a>
+<a href="https://github.com/Yuvarani1212" target="_blank" title="GitHub">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#000000">
+    <path d="M12 .5c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577 0-.285-.011-1.04-.017-2.042-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.083-.729.083-.729 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.774.419-1.304.762-1.604-2.665-.305-5.466-1.332-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.536-1.527.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.984-.399 3.003-.404 1.018.005 2.046.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.649.243 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.804 5.624-5.475 5.921.43.372.814 1.102.814 2.222 0 1.604-.015 2.896-.015 3.286 0 .319.192.694.801.576 4.765-1.588 8.202-6.084 8.202-11.386 0-6.627-5.373-12-12-12z"/>
+  </svg>
+</a>
+</p>
+</header>
+
+<!-- About Me Section -->
+<section id="about">
+<h2>About Me</h2>
+<div class="panel" style="display:block; border-left: 6px solid #008080; padding: 15px; background:#1e1e1e;">
+<p>
+I am <strong>Yuvarani S</strong>, a Graphic and UI/UX Designer, Python Engineer, and Data Analyst.  
+I am constantly working on improving myself by exploring new ideas and designing user interfaces for mobile and web applications.  
+By combining my graphic and visual design skills, I aim to create an overall great user experience.  
+I provide design solutions that consider both client business goals and user satisfaction.
+</p>
+</div>
+</section>
+
+<nav>
+<a href="#education">Education</a>
+<a href="#work">Work</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#certifications">Certifications</a>
+<a href="#languages">Languages</a>
+</nav>
+
+<!-- Sections -->
+<section id="education">
+<h2>Education</h2>
+<button class="accordion">Meenakshi College of Engineering, Chennai</button>
+<div class="panel">
+<p><strong>Bachelor of Engineering</strong> – Expected May 2026</p>
+<p><strong>Major:</strong> Computer Science</p>
+<p><strong>Cumulative GPA:</strong> 8.06/10</p>
+</div>
+</section>
+
+<section id="work">
+<h2>Work Experience</h2>
+<button class="accordion">CodSoft – Python Programming Intern</button>
+<div class="panel">
+<ul>
+<li>Implemented a Simple Calculator, To-do List, and Rock Paper Scissors Game.</li>
+<li>Developed GUI-based application using Python.</li>
+</ul>
+</div>
+<button class="accordion">Hex Softwares – Python with Data Science Intern</button>
+<div class="panel">
+<ul>
+<li>Conducted EDA using Excel.</li>
+<li>Delivered visualization report.</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<button class="accordion">Online Task Manager</button>
+<div class="panel">
+<ul>
+<li>Web app with add/edit/delete/complete task functionality.</li>
+<li>Tech: HTML, CSS, JavaScript, SQL</li>
+</ul>
+</div>
+<button class="accordion">Calculator</button>
+<div class="panel">
+<ul>
+<li>Graphical calculator, supports decimals.</li>
+<li>Tech: Python</li>
+</ul>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<button class="accordion">Programming & Tools</button>
+<div class="panel">
+<ul>
+<li>Python, NumPy, Pandas, SQL, VS Code, Jupyter Notebook, Canva, Figma</li>
+</ul>
+</div>
+<button class="accordion">Technical & Soft Skills</button>
+<div class="panel">
+<ul>
+<li>Typewriting, MS Office, Graphic/UI-UX Design</li>
+<li>Communication, Problem-solving, Teamwork</li>
+</ul>
+</div>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<button class="accordion">My Certifications</button>
+<div class="panel">
+<ul>
+<li>CCNA: Introduction to Networks (CISCO)</li>
+<li>C++, Java and Python (Cybernaut)</li>
+<li>UI/UX Design Mastery (Juno)</li>
+</ul>
+</div>
+</section>
+
+<section id="languages">
+<h2>Languages Known</h2>
+<button class="accordion">Languages</button>
+<div class="panel">
+<ul>
+<li>English</li>
+<li>Tamil</li>
+<li>Telugu</li>
+</ul>
+</div>
+</section>
+
+<script>
+var acc=document.getElementsByClassName("accordion");
+for(let i=0;i<acc.length;i++){
+  acc[i].addEventListener("click",function(){
+    this.classList.toggle("active");
+    var panel=this.nextElementSibling;
+    panel.style.display=(panel.style.display==="block")?"none":"block";
+  });
+}
+</script>
+
+</body>
+</html>
